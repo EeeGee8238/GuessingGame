@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap and CSS here
+    <style>
+      .center {
+        text-align: center;
+      }
+      ul {
+          list-style: none;
+          padding: 0;
+      }
+      img {
+          display: inline;
+          width: 200px;
+          height: 100px;
+      }
+      #footer {
+          width: 100%;
+          border-top: solid 2px black;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+    </style> -->
+
+  </head>
+  <body class='container'>
+
+      <div id='app' class='center center-container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>EG's Guessing Game-arama!</h1>
+          <h2 id='subtitle'>*~*Guess a number between 1 and 100*~*</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input class='center' id='player-input' placeholder="???" maxlength = "3" autofocus="autofocus"></input>
+            <button id='submit'>Click to Venture your Guess</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='list-of-guesses'>
+              <li class='guess'>_</li>
+              <li class='guess'>_</li>
+              <li class='guess'>_</li>
+              <li class='guess'>_</li>
+              <li class='guess'>_</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-warning btn-large btn-block'>Reset Game</button>
+            <button id='hint' class='btn btn-info btn-large btn-block'>Need a Hint?</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div id='byline' class='col-sm-4'>
+            <h4>Project by ERIC GARNETT</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
