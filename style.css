@@ -31,7 +31,7 @@ img {
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 10px;
-  color: green;
+  color: red;
 }
 
 #subtitle {
@@ -55,7 +55,7 @@ img {
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  margin-left: 5% auto 50px;
+  /* margin-left: 5% auto 50px; */
   font-size: 60px;
   background-color: rgba(222, 0 , 222, 0.7);
   border: 5px dotted orange;
@@ -72,6 +72,7 @@ img {
   color: darkgreen;
   background-color: yellow;
   font-size: 20px;
+
 }
 
 #guesses {
@@ -79,27 +80,27 @@ img {
 }
 
 .guess {
-  display: inline-block;
+  display: inline;
   width: 80px;
   margin: 0 10px;
-  font-size: 80px;
+  font-size: 60px;
   border: 10px double darkorange;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 
 #reset {
   color: black;
   width: 35%;
   font-size: 25px;
-  margin: 8px auto;
+  margin: 8px 20px;
 }
 
 #hint {
   color: darkblue;
   width: 35%;
-  margin: 10px auto;
+  margin: 65px auto;
   font-size: 25px;
 }
 
@@ -109,8 +110,8 @@ img {
   border-top: solid 2px black;
   background-color: white;
   position: fixed;
-  right: 0;
-  bottom: 8px;
+  /* right: 0; */
+  bottom: 0;
 }
 
 #byline {
@@ -120,14 +121,4 @@ img {
 *::-webkit-input-placeholder {
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
 
